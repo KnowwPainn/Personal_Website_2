@@ -1,0 +1,141 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 0;
+}
+
+.color-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1;
+  }
+
+.color-button {
+padding: 10px 20px;
+font-size: 16px;
+}
+
+.profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: "auto";
+  }
+
+.profile-image-container img {
+    border: 5px solid #2ecc71;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: content-box;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 40px 0;
+}
+
+h1, h2 {
+    color: #2ecc71;
+}
+
+.project {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.project img.left-align{
+    float: "left";
+    margin-right: 10px;
+}
+
+.project img.right-align{
+    float: "right";
+    margin-left: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .image-container {
+    width: 300px; /* Set the desired width for the container */
+    height: 200px; /* Set the desired height for the container */
+    overflow: hidden; /* Hide overflowing content (images) */
+  }
+
+  .image-container img {
+    width: auto; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+  }
+
+/* Style links */
+a {
+    color: #0b6103;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Darker blue on hover */
+}
+
+
+footer {
+    background-color: #2ecc71;
+    color: aliceblue;
+    height: 70px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
+  }
+  
+  footer a {
+    margin: 0 25px;
+  }
+  
+  footer .media-link {
+    height: 45px;
+  }
